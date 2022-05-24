@@ -5,7 +5,7 @@ import time
 link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/'
 
 
-def test_languages(browser):
+def test_exist_of_add_button_to_basket(browser):
     browser.get(link)
     # time.sleep(30)
     browser.implicitly_wait(5)
